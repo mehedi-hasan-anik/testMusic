@@ -1,11 +1,11 @@
 import "antd/dist/antd.css";
 import "./App.css";
-import Carousels from "./components/Carousels";
+import Images from "./components/Images/index";
 
 function App() {
   return (
     <div className="App">
-      <Carousels />
+      <Images />
     </div>
   );
 }
