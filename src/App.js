@@ -1,11 +1,11 @@
 import "antd/dist/antd.css";
 import "./App.css";
-import GridRow from "./components/GridRow/index";
+import HorizontalNavigation from "./components/HorizontalNavigation";
 
 function App() {
   return (
     <div className="App">
-      <GridRow />
+      <HorizontalNavigation />
     </div>
   );
 }
